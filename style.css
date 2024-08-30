@@ -1,0 +1,206 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .splash {
+    height: 100vh;
+    background-color: #1a1a1a;
+    background-image: url('https://i.imgur.com/nh2JcfJ.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .splash-inner{
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(56, 23, 16, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo {
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+  }
+  
+  .restaurante{
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .refract {
+    display: block;
+    font-size: 6rem;
+    letter-spacing: 0.5rem;
+  }
+  
+  .icon-container {
+    margin-top: 2rem;
+  }
+  
+  .wine-icon {
+    width: 50px;
+    height: auto;
+  }
+  
+  .intro {
+    background-color: #2c1a1a; 
+    color: #ffffff; 
+    padding: 40px 0; 
+  }
+  
+  .intro .container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    position: relative; 
+  }
+  
+  .intro p {
+    font-size: 18px; 
+    line-height: 1.6; 
+    text-align: center; 
+    padding: 20px 0; 
+  }
+  
+  .intro .highlight {
+    color: #ffffff; 
+    font-weight: bold;
+  }
+  
+  .intro .container::before,
+  .intro .container::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #ffffff;
+  }
+  
+  .intro .container::before {
+    top: 0;
+  }
+  
+  .intro .container::after {
+    bottom: 0;
+  }
+  
+  .hello-world {
+    background-color: #ffffff;
+    padding: 80px 0;
+  }
+  
+  .hello-world .container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .hello-world .section-title {
+  color: #000000;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .hello-world .section-title::after{
+    content: '';
+    display: block;
+    widh: 40px;
+    height: 4px;
+    background-color: #8B0000;
+    margin: 20px auto 0;
+  }
+  
+  .hello-world p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+  max-widht: 600px;
+    margin: 0 auto;
+  }
+  
+  .our-restaurant {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .our-restaurant .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .our-restaurant .section-title {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .our-restaurant .section-title::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 4px;
+    background-color: #8B0000;
+    margin: 20px auto 0;
+  }
+  
+  .restaurant-section {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  
+  .restaurant-section.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .restaurant-image {
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .restaurant-image img {
+    widht: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .restaurant-description-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .restaurant-description {
+    padding: 0 20px;
+    background-color: #000;
+  }
+  
+  .restaurant-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  
